@@ -1,0 +1,20 @@
+Why Python?
+Frankly, Python is not the best language for functional programming. Reasons include:
+
+No static typing.
+(Almost) everything is mutable.
+No tail call optimization.
+Side effects are common.
+Imperative and OOP styles abound in popular libraries.
+Purity is not enforced (and sometimes not even encouraged).
+Sum Types are hard to define.
+Pattern matching is weak at best.
+So seriously, why are we using Python? One reason trumps all others: you already know Python. Python is a great choice for learning coding basics, OOP, Algorithms, and Data Structures, and the tradeoff of learning a new language at this point in the curriculum isn't worth it.
+
+We can still cover the most important concepts of functional programming in Python, even if we have to jump through a hoop or two to do it. Functional programming is a paradigm of useful techniques for writing better code, and they apply to all languages, not just purely functional ones.
+
+Note: We also plan to release a "Functional Programming 2" course in a more functional language. Likely one of these:
+
+Haskell
+OCaml
+Elixir
